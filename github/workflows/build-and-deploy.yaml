@@ -2,7 +2,7 @@
 name: Build and Deploy React App to CloudFront
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build-and-deploy:
     name: Build and Deploy
@@ -10,7 +10,7 @@ jobs:
     env:
       BUCKET: www.andystav.com
       DIST: build
-      REGION: eu-west-2
+      REGION: us-east-1
       DIST_ID: E1R9X83BJT5EQ6
 
     steps:
