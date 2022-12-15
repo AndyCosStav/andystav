@@ -29,22 +29,22 @@ const Title = () => {
           <Container fluid="sm">
             <div className="skillSet">
               <p>Technologies I use include:</p>
-              <i class="devicon-csharp-plain"></i>
-              <i class="devicon-javascript-plain"></i>
-              <i class="devicon-typescript-plain"></i>
-              <i class="devicon-nodejs-plain"></i>
-              <i class="devicon-dotnetcore-plain"></i>
-              <i class="devicon-react-original"></i>
-              <i class="devicon-angularjs-plain"></i>
-              <i class="devicon-microsoftsqlserver-plain"></i>
+              <i className="devicon-csharp-plain"></i>
+              <i className="devicon-javascript-plain"></i>
+              <i className="devicon-typescript-plain"></i>
+              <i className="devicon-nodejs-plain"></i>
+              <i className="devicon-dotnetcore-plain"></i>
+              <i className="devicon-react-original"></i>
+              <i className="devicon-angularjs-plain"></i>
+              <i className="devicon-microsoftsqlserver-plain"></i>
               <br />
-              <i class="devicon-postgresql-plain"></i>
-              <i class="devicon-mongodb-plain"></i>
-              <i class="devicon-html5-plain"></i>
-              <i class="devicon-css3-plain"></i>
-              <i class="devicon-git-plain"></i>
-              <i class="devicon-github-original"></i>
-              <i class="devicon-bootstrap-plain"></i>
+              <i className="devicon-postgresql-plain"></i>
+              <i className="devicon-mongodb-plain"></i>
+              <i className="devicon-html5-plain"></i>
+              <i className="devicon-css3-plain"></i>
+              <i className="devicon-git-plain"></i>
+              <i className="devicon-github-original"></i>
+              <i className="devicon-bootstrap-plain"></i>
             </div>
           </Container>
           <div className="bottom">
