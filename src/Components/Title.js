@@ -48,7 +48,7 @@ const Title = () => {
             </div>
           </Container>
           <div className="bottom">
-            <h2>What I've Done </h2>
+            <h2>What I've Done</h2>
             <p>
               All my past professional exploits can be found on{" "}
               <span style={{ color: "purple", fontWeight: "bold" }}>
