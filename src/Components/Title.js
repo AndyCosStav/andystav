@@ -7,9 +7,14 @@ const Title = () => {
     <Container>
       <Row>
         <div className="Title">
-          <h1>Hi, I'm Andy.</h1>
+          <h1>
+            Hi<span style={{ color: "purple", fontWeight: "bold" }}>,</span> I
+            <span style={{ color: "purple", fontWeight: "bold" }}>'</span>m
+            Andy.
+          </h1>
           <p className="introText">
-            I am a Fullstack Software Engineer specialising in .NET and React
+            I am a <b>Fullstack Software Engineer</b> specialising in{" "}
+            <b>.NET</b> and <b>React</b>.
             <br />
             I am a remote worker living in East London, but I love to travel
             when I can.

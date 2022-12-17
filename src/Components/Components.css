@@ -3,18 +3,17 @@
 
 .Title {
   text-align: center;
+  font-family: "Montserrat";
 }
 
 .Title h1 {
   margin-top: 1em;
   margin-bottom: 0.5em;
-  font-family: "Montserrat";
   font-size: 5em;
   font-weight: bolder;
 }
 
 .introText {
-  font-family: "Montserrat";
   margin-bottom: 3em;
   line-height: 2em;
   font-size: 1.5em;
@@ -30,6 +29,7 @@
 .skillSet p {
   font-size: 0.5em;
   letter-spacing: 0.01em;
+  font-weight: bold;
 }
 .skillSet i {
   margin-bottom: 4em;
@@ -38,7 +38,48 @@
 .bottom h2 {
   font-size: 2em;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 .bottom p {
   font-size: 1.5em;
+}
+
+
+@media (max-width:500px) {
+  .Title h1 {
+    font-size: 3em;
+  }
+
+  .introText {
+    margin-bottom: 2em;
+    line-height: 1.5em;
+    font-size: 1em;
+    width: 100%;
+    display:inline-block;
+    text-align: center;
+  }
+
+  .skillSet {
+    letter-spacing: 0.1em;
+    border-bottom: dashed black;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  .skillSet p {
+    letter-spacing: 0.01em;
+    font-size: 0.3em;
+    margin-bottom: 0em;
+  }
+  .skillSet i {
+    margin-bottom: 0em;
+    font-size: 0.4em;
+  }
+  
+  .bottom h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  .bottom p {
+    font-size: 1em;
+  }
 }
