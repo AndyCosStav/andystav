@@ -5,13 +5,13 @@ const Navigation = () => {
   return (
     <Navbar>
       <LinkContainer to="/">
-        <Navbar.Brand>ANDYSTAV.COM</Navbar.Brand>
+        <Navbar.Brand className="nav-links">ANDYSTAV.COM</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           <LinkContainer to="/whatsthehapps">
-            <Nav.Link>Whats the happs?</Nav.Link>
+            <Nav.Link className="nav-links">Whats the happs?</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

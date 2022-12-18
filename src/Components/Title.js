@@ -9,8 +9,8 @@ const Title = () => {
         <div className="Title">
           <h1>
             Hi<span style={{ color: "purple", fontWeight: "bold" }}>,</span> I
-            <span style={{ color: "purple", fontWeight: "bold" }}>'</span>m
-            Andy.
+            <span style={{ color: "purple", fontWeight: "bold" }}>'</span>m Andy
+            <span style={{ color: "purple", fontWeight: "bold" }}>.</span>
           </h1>
           <p className="introText">
             I am a <b>Fullstack Software Engineer</b> specialising in{" "}

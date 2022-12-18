@@ -20,14 +20,14 @@ const Whatsthehapps = () => {
           <ul>
             <li>
               Refactor and restyle this site...once I come up with something
-              that resemles a personal brand....
+              that resembles a personal brand....
             </li>
-            <li>build a chat app using react and .net</li>
-            <li>convert this site into a cms</li>
+            <li>Build a chat app using react and .net</li>
+            <li>Convert this site into a cms, potentially gatsby?</li>
             <li>
-              use this site to test out the automation skills i've been learning
+              Use this site to test out the automation skills i've been learning
             </li>
-            <li>machine learning...thats popular right?</li>
+            <li>Machine learning...thats popular right?</li>
             <li>Tutorials and blogs!</li>
           </ul>
         </div>
